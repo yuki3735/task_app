@@ -1,0 +1,51 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #ffdfdf;
+  border: solid 1px black;
+  padding: 10px 20px;
+}
+  
+table td {
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: center;
+  background-color: #f1c8c861;
+  border: solid 1px black;
+  padding: 10px 20px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#post_memo {
+  width: 350px;
+  height: 200px;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  padding-left: 0px;
+  display: list-item;
+}
+
+input[type=submit] {
+  width: auto;
+}
+
+.notice {
+  background-color: #ec98ac8f;
+  border: 2px solid #ec7592;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+}
