@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+  <header>
+    <h1>Ruby on Rails スケジュール管理アプリ</h1>
+  </header>
+  <%= yield %>
   </body>
+  <footer>
+    <h1>現在の日時:<%= $year %>年<%= $month %>月<%= $day %>日 スケジュール合計:<%= $numbers %></h1>
+    </footer>
 </html>
